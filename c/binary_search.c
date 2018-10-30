@@ -3,6 +3,7 @@
 
 int main()
 {
+    //input in format of array
     int n;
     printf("enter no of elements in array\t");
     scanf("%d",&n);
@@ -13,11 +14,13 @@ int main()
         scanf("%d",&arr[i]);
     }
 
+    // input of no to be searched
     int no;
     printf("\nenter no to search in array\t");
     scanf("%d",&no);
     int s = n;
 
+    // binary search algorithm and output
     int first, last, middle;
     first = 0;
     last = s-1;
